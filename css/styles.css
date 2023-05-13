@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fondo {
+    background-image: url(images/fondop.jpg);
+}
+
+nav {
+    background-image: url('../images/rayas.png');
+    background-size: 400px;
+    background-position: center;
+}
+
+.navbar, footer{
+    background: linear-gradient(45deg, #f1860b, #d81019) !important;
+}
+
+.navbar img {
+    height: 200px;
+    padding: 7px;
+}
+
+.img-primary {
+    width: 80%;
+    border-radius: 20px;
+}
+
+footer img {
+    height: 200px;
+}
